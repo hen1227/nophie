@@ -1,4 +1,9 @@
+/*
 
+ This is sort of a mess...
+ xx - let users customize the problem set settings
+
+*/
 function save(){
   var minutes = document.getElementById('minutes').value;
   console.log('saving minutes ' + minutes);

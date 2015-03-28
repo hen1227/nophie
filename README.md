@@ -1,2 +1,5 @@
-# nophie
-Chrome extension: require some simple math work at an interval to keep browsing
+# Nophie
+
+[Nophie Image](images/icon-128.png)
+
+This is a Chrome Extension which blocks the viewing of a web page pending the correct answer of a basic (elementary school level) math problem.
