@@ -1,6 +1,7 @@
 (function($){
-  
+  'use strict';
   var problemsets = [
+/*
     {
       operator : '-',
       min : 5,
@@ -11,6 +12,7 @@
       operator : '+',
       max : 100
     },
+*/ // for now just use multiplication 
     {
       operator : '*',
       min : 2,
