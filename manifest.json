@@ -36,6 +36,7 @@
   
   "web_accessible_resources" : [
     "images/icon-128.png",
+    "images/nophie.png",
     "html/nophie.html"
   ]
 }
