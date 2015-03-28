@@ -1,12 +1,16 @@
 #nophie{
   background-color: rgba(0, 0, 0, 0.85);
+  color: rgb(34, 34, 34);
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
   height: 100%;
   left: 0;
+  line-height: 17px;
   position: fixed;
+  text-align: center;
   top: 0;
   width: 100%;
   z-index: 1000;
-  text-align: center;
 }
 
 #nophie-inner{
@@ -24,7 +28,7 @@
 }
 
 #nophie-answer{
-  width: 30px;
+  width: 50px;
 }
 
 /* styles for settings */
