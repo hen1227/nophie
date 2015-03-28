@@ -19,7 +19,7 @@
       "js/nophie.js"]
   }],
 
-  "options_page" : "html/options.html",
+  "options_page" : "html/settings.html",
 
   "browser_action" : {
     "default_icon" : "images/icon-128.png",

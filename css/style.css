@@ -1,9 +1,0 @@
-
-label:after{
-  content: ': ';
-}
-
-#status.ok:after{
-  color: green;
-  content: "\2713";
-}
