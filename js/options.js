@@ -4,6 +4,7 @@
  xx - let users customize the problem set settings
 
 */
+/*
 function save(){
   var minutes = document.getElementById('minutes').value;
   console.log('saving minutes ' + minutes);
@@ -23,16 +24,15 @@ function restore(){
 
   console.log('restoring');
 // xx - why erroring here?
-/*
   chrome.storage.sync.get({
     minutes : 1
   }, function(got){
     console.log('got ' + got);
     document.getElementById('minutes').value(got.minutes);
   });
-*/
 }
 
 
 document.addEventListener('DOMContentLoaded', restore, false);
 document.getElementById('save').addEventListener('click',save);
+*/
