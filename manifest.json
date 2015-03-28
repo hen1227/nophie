@@ -2,9 +2,10 @@
   "manifest_version" : 2,
 
   "name": "Nophie",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "Require some simple math work at an interval to keep browsing.",
-  
+  "homepage_url" : "https://github.com/tleen/nophie",
+
   "icons": {
     "128" : "images/icon-128.png"
   },
