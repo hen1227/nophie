@@ -37,8 +37,9 @@
 
 	// generate question
 	var problemset = _.sample(problemsets);
-	var lower = _.random((problemset.min || 0), problemset.max);
-	var upper = _.random((problemset.lowerBound ? lower : 0), problemset.max);
+	var min = (problemset.min || 0);
+	var lower = _.random(min, problemset.max);
+	var upper = _.random((problemset.lowerBound ? lower : min), problemset.max);
 	var problem = upper + ' ' + problemset.operator + ' ' + lower;
 	var solution = eval(problem);
 	question$.text(problem);
