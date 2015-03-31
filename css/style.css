@@ -28,6 +28,8 @@
 }
 
 #nophie-answer{
+  border: 1px solid #aaa;
+  font-size: 14px;
   width: 50px;
 }
 
