@@ -1,3 +1,16 @@
+	function chooseProblemSet(myProblemsets){
+		var hasOperators = [];
+		for var operators in myProblemsets {
+			if(operators.use)
+			{
+				hasOperators += [operators]
+			}
+			
+		}
+		
+		return hasOperators;
+	}
+
 (function($){
   'use strict';
   var problemsets = [
@@ -43,7 +56,7 @@
 	if(nophie$.is(':visible')) return; // last question is still up
 
 	// generate question
-	var problemset = _.sample(problemsets);
+	var problemset = _.sample(chooseProblemSet(problemsets));
 	var min = (problemset.min || 0);
 	var lower = _.random(min, problemset.max);
 	var upper = _.random((problemset.lowerBound ? lower : min), problemset.max);
@@ -78,17 +91,3 @@
     'html');
 
 })(jQuery);
-
-
-	function chooseProblemSet(){
-		var hasOperators = [];
-		for var operators in problemsets {
-			if(operators.use)
-			{
-				hasOperators += [operators]
-			}
-			
-		}
-		
-		return hasOperators;
-	}
