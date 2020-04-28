@@ -1,8 +1,8 @@
 {
   "manifest_version" : 2,
 
-  "name": "Nophie",
-  "version" : "0.0.5",
+  "name": "Nophie Pro",
+  "version" : "0.0.1",
   "description" : "Require some simple math work at an interval to keep browsing.",
   "homepage_url" : "https://github.com/tleen/nophie",
 
@@ -24,7 +24,7 @@
 
   "browser_action" : {
     "default_icon" : "images/icon-128.png",
-    "default_title" : "Nophie"
+    "default_title" : "Nophie Pro"
   },
 
   "permissions" : [
