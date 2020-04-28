@@ -34,11 +34,7 @@
 }
 
 /* styles for settings */
-#settings label:after{
-  content: ': ';
-}
-
-#settings #status.ok:after{
+#settings {
   color: green;
-  content: "\2713";
+  text-align: center;
 }
