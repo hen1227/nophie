@@ -1,13 +1,3 @@
-	function chooseProblemSet(myProblemsets){
-		var hasOperators = [];
-		for(var i = 0; i < myProblemsets.length; i++){
-			if(myProblemsets[i].use){
-				hasOperators += [myProblemsets[i]]
-			}
-		}
-		return hasOperators;
-	}
-
 (function($){
   'use strict';
   var problemsets = [
@@ -49,6 +39,16 @@
       var input$ = nophie$.find('#nophie-answer').first();
       var question$ = nophie$.find('#nophie-question').first();
 
+	    function chooseProblemSet(myProblemsets){
+		var hasOperators = [];
+		for(var i = 0; i < myProblemsets.length; i++){
+			if(myProblemsets[i].use){
+				hasOperators += [myProblemsets[i]]
+			}
+		}
+		return hasOperators;
+	}
+	    
       function block(){
 	if(nophie$.is(':visible')) return; // last question is still up
 
