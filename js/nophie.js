@@ -1,22 +1,27 @@
 (function($){
   'use strict';
   var problemsets = [
-/*
+
     {
       operator : '-',
       min : 5,
       max : 100,
-      lowerBound : true // higher number must be greater than lower 
+      lowerBound : false,
+     use:false // higher number must be greater than lower 
     },
     {
       operator : '+',
-      max : 100
+      max : 100,
+     use:false
+// 	operatorInclude: false
     },
-*/ // for now just use multiplication 
+ // for now just use multiplication 
     {
       operator : '*',
       min : 2,
-      max : 10
+      max : 10,
+     use:false
+// 	us    operatorInclude: false
     }
   ];
 
@@ -73,3 +78,17 @@
     'html');
 
 })(jQuery);
+
+
+	function chooseProblemSet(){
+		var hasOperators = [];
+		for var operators in problemsets {
+			if(operators.use)
+			{
+				hasOperators += [operators]
+			}
+			
+		}
+		
+		return hasOperators;
+	}
