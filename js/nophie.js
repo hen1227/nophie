@@ -1,13 +1,10 @@
 	function chooseProblemSet(myProblemsets){
 		var hasOperators = [];
-		for var operators in myProblemsets {
-			if(operators.use)
-			{
-				hasOperators += [operators]
+		for(var i = 0; i < myProblemsets.length; i++){
+			if(myProblemsets[i].use){
+				hasOperators += [myProblemsets[i]]
 			}
-			
 		}
-		
 		return hasOperators;
 	}
 
